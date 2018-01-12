@@ -4,7 +4,7 @@ This project displays 3 (garishly styled) custom checkboxes.  It is built from r
 
 ## Installation
 1.	Clone repo.
-2.  Navigate to bh-challenge folder.
+2.  Navigate to BH-Challenge folder.
 3.	Run `npm install`
 
 ## Usage
