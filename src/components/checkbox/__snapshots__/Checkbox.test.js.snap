@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a checkbox 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Checkbox
+    initialChecked={true}
+    label="Test Label"
+    name="test-checkbox"
+    value="test-value"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <input
+          checked={true}
+          id="test-checkbox"
+          name="test-checkbox"
+          onChange={[Function]}
+          type="checkbox"
+          value="test-value"
+/>,
+        <label
+          htmlFor="test-checkbox"
+/>,
+        <span
+          className="checkbox-text-label"
+>
+          Test Label
+</span>,
+      ],
+      "className": "checkbox",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "checked": true,
+          "id": "test-checkbox",
+          "name": "test-checkbox",
+          "onChange": [Function],
+          "type": "checkbox",
+          "value": "test-value",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "htmlFor": "test-checkbox",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "label",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Test Label",
+          "className": "checkbox-text-label",
+        },
+        "ref": null,
+        "rendered": "Test Label",
+        "type": "span",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <input
+            checked={true}
+            id="test-checkbox"
+            name="test-checkbox"
+            onChange={[Function]}
+            type="checkbox"
+            value="test-value"
+/>,
+          <label
+            htmlFor="test-checkbox"
+/>,
+          <span
+            className="checkbox-text-label"
+>
+            Test Label
+</span>,
+        ],
+        "className": "checkbox",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "checked": true,
+            "id": "test-checkbox",
+            "name": "test-checkbox",
+            "onChange": [Function],
+            "type": "checkbox",
+            "value": "test-value",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "htmlFor": "test-checkbox",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "label",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Test Label",
+            "className": "checkbox-text-label",
+          },
+          "ref": null,
+          "rendered": "Test Label",
+          "type": "span",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
